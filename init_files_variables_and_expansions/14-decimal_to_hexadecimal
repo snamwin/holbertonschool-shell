@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $DECIMAL | bc <<< "obase=16"
+bash
+export PATH="$PATH:/action"
