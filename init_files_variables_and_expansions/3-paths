@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Running 3-paths script"
+echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
